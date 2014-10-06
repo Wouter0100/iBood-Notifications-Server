@@ -1,0 +1,8 @@
+MySQL:
+  host: ""
+  user: ""
+  pass: ""
+  database: ""
+debug: true
+interval: 60000
+gcm: ""
