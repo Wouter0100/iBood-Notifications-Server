@@ -1,0 +1,21 @@
+{
+    "name": "iBood-Notifications-Server",
+    "version": "0.0.1",
+    "author": "Wouter van Os (Wouter0100) <wouter@wouter0100.nl>",
+    "main": "main.js",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wouter0100/iBood-Notifications-Server"
+    },
+    "dependencies": {
+        "body-parser": "1.9.0",
+        "config": "1.2.1",
+        "express": "4.9.5",
+        "jquery": "2.1.1",
+        "js-yaml": "3.2.2",
+        "jsdom": "1.0.0-pre.7",
+        "mysql": "2.5.1",
+        "node-gcm": "0.9.12",
+        "socket.io": "0.9.17"
+    }
+}
