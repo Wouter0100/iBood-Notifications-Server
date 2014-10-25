@@ -117,6 +117,10 @@ setInterval(function() {
                 });
             });
 
+            request.on('error', function(err) {
+                console.log('[SCANNER] Error from socket: ' + err.code);
+            });
+
             request.end();
 
         });
